@@ -1,0 +1,90 @@
+
+
+ * {
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/desktop-wallpaper-rolex-logo-gray-creative-background-rolex-emblem-gray-paper-texture-rolex-gray-background-rolex-3d-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-top: -30px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -100px;
+    padding-top: 50px;
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./images/desktop-wallpaper-rolex-logo-gray-creative-background-rolex-emblem-gray-paper-texture-rolex-gray-background-rolex-3d-logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px); 
+    z-index: -1; 
+}
+input{
+    height:50px;
+    width: 300px;
+    border-radius: 5px;
+    border: transparent;
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration:underline;
+    color:white;
+}
+input{
+    text-align: center;
+    background-color:rgb(201, 197, 197);
+}
+button{
+    height:40px;
+    width: 300px;
+    border-radius: 7px;
+    background-color:transparent;
+    cursor: pointer;
+    color: white;
+
+}
+header{
+    color: rgb(35, 29, 29);
+}
+h4{
+    color: white;
+    font-weight: lighter;
+
+}
+header img{
+    height: 100px;
+width: 170px;}
+.image1{
+    padding-bottom: 10px;
+}
+button:hover{
+    background-color:darkgrey;
+}
